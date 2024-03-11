@@ -1,0 +1,77 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 9px;
+  background-color: rgba(204, 7, 7, 0.897);
+  color: white;
+  padding: .3rem;
+  font-weight: 700;
+}
+.heading{
+  color: rgb(168, 10, 10);
+  font-weight: 700;
+}
+
+.cards-wrapper {
+  margin: 3rem 0;
+}
+
+.col-md-3 {
+  margin: 1rem 0;
+}
+
+.card {
+  background-color: rgba(97, 95, 95, 0.281);
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.footer-wrappo{
+  padding: 4rem;
+  background-color: rgba(28, 24, 22, 255);
+}
+.footer li,a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  padding: .4rem 0;
+}
+
+.footer a:hover {
+  color: red;
+  transition: all ease-in-out .4s;
+}
